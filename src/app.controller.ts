@@ -1,9 +1,9 @@
 import { Controller, Get } from '@nestjs/common'
 
-@Controller()
+@Controller('test')
 export class AppController {
     @Get()
-    getRoot() {
-        return { message: 'Server is running' }
+    getTest() {
+        return 'API работает!'
     }
 }

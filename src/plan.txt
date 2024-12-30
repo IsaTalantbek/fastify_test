@@ -1,0 +1,44 @@
+src/
+├── modules/
+│   ├── users/
+│   │   ├── dtos/
+│   │   ├── entities/
+│   │   ├── interfaces/
+│   │   ├── users.controller.ts
+│   │   ├── users.service.ts
+│   │   ├── users.module.ts
+│   │   └── ...
+│   ├── posts/
+│   │   ├── dtos/
+│   │   ├── entities/
+│   │   ├── posts.controller.ts
+│   │   ├── posts.service.ts
+│   │   ├── posts.module.ts
+│   │   └── ...
+│   └── ...
+├── common/
+│   ├── decorators/
+│   ├── guards/
+│   ├── pipes/
+│   ├── interceptors/
+│   ├── filters/
+│   └── utils/
+├── core/
+│   ├── config/
+│   │   ├── app.config.ts
+│   │   ├── database.config.ts
+│   │   └── ...
+│   ├── database/
+│   │   ├── prisma.service.ts
+│   │   ├── mongoose.config.ts
+│   │   └── ...
+│   ├── logger/
+│   ├── auth/
+│   └── ...
+├── shared/
+│   ├── constants/
+│   ├── enums/
+│   ├── errors/
+│   └── ...
+├── main.ts
+└── app.module.ts
